@@ -1,0 +1,22 @@
+{
+  "name": "discovery-mechanisms",
+  "version": "0.0.1",
+  "description": "discovery mechanisms from js-libp2p",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chainsafe/libp2p-noise": "^10.1.0",
+    "@libp2p/bootstrap": "^5.0.0",
+    "@libp2p/floodsub": "^5.0.0",
+    "@libp2p/mdns": "^5.1.0",
+    "@libp2p/mplex": "^7.0.0",
+    "@libp2p/pubsub-peer-discovery": "^7.0.0",
+    "@libp2p/tcp": "^6.0.1",
+    "libp2p": "^0.40.0"
+  }
+}
