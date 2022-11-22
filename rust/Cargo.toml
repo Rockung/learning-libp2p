@@ -1,0 +1,15 @@
+[package]
+name = "libp2p_demo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-std = { version = "1.12.0", features = ["attributes"] }
+async-trait = "0.1.58"
+clap = { version = "4.0.22", features = ["derive"] }
+env_logger = "0.9.3"
+futures = "0.3.25"
+libp2p = { version = "0.43.0", features =["tcp-tokio"] }
+tokio = { version = "1.22.0", features = ["full"] }
