@@ -1,0 +1,10 @@
+{
+  "name": "01-ipfs-101",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "ipfs-core": "^0.17.0"
+  }
+}
